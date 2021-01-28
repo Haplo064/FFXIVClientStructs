@@ -44,5 +44,6 @@ namespace FFXIVClientStructs.FFXIV.Client.UI
                 [FieldOffset(0x5A)] public short IconYAdjust;
             }
         }
+        [FieldOffset(0x450)] public byte* NamePlateObjectArray;
     }
 }
